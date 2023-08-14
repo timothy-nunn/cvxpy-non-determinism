@@ -22,7 +22,13 @@ Both solutions *appear* to be valid--just different--and VMCON is able to conver
 3. Is there a way to eliminate this non-determinism for our test suite? Seeding the numpy random generator appears not to work.
 
 ## Technical details
-- OS: Ubuntu 18.04.4 LTS
-- Kernel: Linux 4.15.0-197-generic
-- Architecture: x86-64
+- OS: 
+    - Ubuntu 18.04.4 LTS (Linux 4.15.0-197-generic) (x86-64)
+    - macOS 13.0.1 (22A400) (AArch64)
 - CVXPY Version: 1.3.2
+- OSQP Versions: 
+    - 0.4.1
+    - 0.6.1
+    - 0.6.2
+    - 0.6.3
+    - 1.0.0b1
