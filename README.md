@@ -1,3 +1,10 @@
+## SOLVED 15/08/2023
+Non-determinism being caused by computation time dependent rho as explained in [this issue](https://github.com/osqp/osqp-python/issues/116).
+Current solution is to disable adaptive rho.
+
+----
+
+
 Demonstration of non-determinism in [cvxpy](https://www.cvxpy.org/index.html)'s quadratic programming.
 
 
